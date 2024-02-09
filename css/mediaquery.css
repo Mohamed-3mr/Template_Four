@@ -1,0 +1,54 @@
+@media (max-width: 767px) {
+    .sidebar {
+        width: 65px;
+        padding: 10px;
+    }
+    .sidebar ul li a span {
+        display: none;
+    }
+    .sidebar > h3 {
+        font-size: 12.5px;
+        margin-bottom: 15px;
+        left: -7px;
+    }
+    .sidebar > h3::before,
+    .sidebar > h3::after {
+        display: none;
+    }
+    .sidebar > h3::before,
+    .sidebar > h3::after {
+    display: none;
+    }
+    .wrapper {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 10px;
+    }
+    /* Start Welcome Widgets */
+    .welcome .intro {
+        padding-bottom: 30px;
+    }
+    .welcome .avatar {
+        margin-left: 0  ;
+    }
+    .welcome .body {
+        display: block;
+    }
+    .welcome .body > div:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    /* End Welcome Widgets */
+    /* Start Tickets Widgets  */
+    .tickets .box {
+        width: 100%;
+    }
+    .latest-news .news-row {
+        display: block;
+    }
+    .latest-news .news-row .label {
+        margin: 10px auto;
+        width: fit-content;
+    }
+    /* End Tickets Widgets  */
+}

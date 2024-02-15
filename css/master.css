@@ -268,6 +268,10 @@ background-color: #e9e9e9;
     .tickets .box {
         border: 1px solid #ccc;
         width: calc(50% - 10px);
+        transition: 0.3s;
+    }
+    .tickets .box:hover {
+        border: 1px solid rgb(145, 145, 145);
     }
     /* End Tickets Widget */
     /* Start Latest News */
@@ -392,3 +396,80 @@ background-color: #e9e9e9;
         border-left: 2px solid var(--red-color);
     }
     /* End  Reminders Widgett */
+    /* Start Latest Posts Widget  */
+    .latest-post .avatar {
+        width: 48px;
+        height: 48px;
+    }
+    .latest-post .post-content {
+        text-transform: capitalize;
+        line-height: 1.8;
+        border-top: 1px solid var(--e6-color);
+        border-bottom: 1px solid var(--e6-color);
+        min-height: 140px;
+    }
+    /* End Latest Posts Widget  */
+    /* Start Social Media Stats Widget */
+    .social-media .box {
+        padding-left: 70px;
+    }
+    .social-media .box i {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 52px;
+        transition: 0.3s;
+    }
+    .social-media .box i:hover {
+        transform: rotate(5deg);
+    }
+    /* Twitter  */
+    .social-media .twitter {
+        background-color: rgb(29 161 242 / 20%);
+        color: #1da1f2;
+    }
+    .social-media .twitter i,
+    .social-media .twitter a {
+        background-color: #1da1f2;
+    }
+    /* Facebook  */
+    .social-media .facebook {
+        background-color: rgb(24 119 242 / 20%);
+        color: #1877f2;
+    }
+    .social-media .facebook i,
+    .social-media .facebook a {
+        background-color: #1877f2;
+    }
+    /* Youtube  */
+    .social-media .youtube {
+        background-color: rgb(255 0 0 / 20%);
+        color: #ff0000;
+    }
+    .social-media .youtube i,
+    .social-media .youtube a {
+        background-color: #ff0000;
+        transition: 0.3s;
+    }
+    .social-media .youtube a:hover {
+        background-color: #a50000;
+    }
+    /* LinkedIn  */
+    .social-media .linkedin {
+        background-color: rgb(10 102 194 / 20%);
+        color: #0a66c2;
+    }.social-media .linkedin i,
+    .social-media .linkedin a {
+        background-color: #0a66c2;
+    }
+    /* Social Ended  */
+    .btn-shape-2 {
+        padding: 4px 10px;
+        border-radius: 6px;
+        width: 80px;
+        text-align: center;
+    }
+    .btn-shape-2:hover {
+        
+    }
+    /* End Social Media Stats Widget */

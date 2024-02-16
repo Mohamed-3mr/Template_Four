@@ -86,7 +86,7 @@
   background-color: white;
 }
 .bg-eee {
-  background-color: #e6e6e6;
+  background-color: #eee;
 }
 .bg-blue {
   background-color: var(--blue-color);
@@ -106,6 +106,11 @@
 }
 .txt-c {
   text-align: center;
+}
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* Margin Top  */
 .mt-0 {
@@ -134,11 +139,17 @@
   margin-right: 15px;
 }
 /* Margin Bottom  */
+.mb-0 {
+  margin-bottom: 0px;
+}
 .mb-5 {
   margin-bottom: 5px;
 }
 .mb-10 {
   margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
 }
 .mb-20 {
   margin-bottom: 20px;
@@ -222,6 +233,9 @@
 }
 .b-none {
   border: none;
+}
+.border-ccc {
+  border: 1px solid #ccc;
 }
 .btn-shape {
   padding: 4px 10px;

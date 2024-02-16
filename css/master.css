@@ -463,12 +463,6 @@ background-color: #e9e9e9;
         background-color: #0a66c2;
     }
     /* Social Ended  */
-    .btn-shape-2 {
-        padding: 4px 10px;
-        border-radius: 6px;
-        width: 80px;
-        text-align: center;
-    }
     /* End Social Media Stats Widget */
     /* Start Projects Table  */
     .projects .responsive-table {
@@ -523,6 +517,20 @@ background-color: #e9e9e9;
         display: inline-flex;
         width: calc(100% - 80px);
     }
+    .settings-page .sec-box {
+        padding-bottom: 15px;
+    }
+    .settings-page .sec-box:not(:last-of-type) {
+        border-bottom: 1px solid #e7e7e7;
+    }
+    .settings-page .sec-box .button {
+        padding: 4px 10px;
+        border-radius: 6px;
+        transition: 0.3s;
+    }
+    .settings-page .sec-box .button:hover {
+        background-color: var(--blue-alt-color);
+    }
     .settings-page .social-boxes i {
         width: 40px;
         height: 40px;
@@ -540,9 +548,17 @@ background-color: #e9e9e9;
         border-radius: 0 6px 6px 0;
     }
     .settings-page .social-boxes > div:focus-within .twitter-icon {
-        color: red;
+        color: #1da1f2;
     }
-    .settings-page .social-boxes i {}
+    .settings-page .social-boxes > div:focus-within .facebook-icon {
+        color: #1877f2;
+    }
+    .settings-page .social-boxes > div:focus-within .linkedin-icon {
+        color: #0a66c2;
+    }
+    .settings-page .social-boxes > div:focus-within .youtube-icon {
+        color: #ff0000;
+    }
     .toggle-checkbox {
         -webkit-appearance: none;
         appearance: none;
@@ -581,5 +597,10 @@ background-color: #e9e9e9;
         content: "\f00c";
         left: 50px;
         color: var(--blue-color);
+    }
+    .settings-page :disabled {
+        cursor: no-drop;
+        background-color: #F0F4F8;
+        color: #BBB;
     }
     /* End Settings  */

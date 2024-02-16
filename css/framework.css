@@ -240,6 +240,13 @@
 .btn-shape {
   padding: 4px 10px;
   border-radius: 6px;
+  transition: 0.3s;
+}
+.btn-shape-2 {
+  padding: 4px 10px;
+  border-radius: 6px;
+  width: 80px;
+  text-align: center;
 }
 .f-wrap {
   flex-wrap: wrap;

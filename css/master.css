@@ -703,3 +703,31 @@ background-color: #e9e9e9;
         color: #BBB;
     }
     /* End Settings  */
+    /* Start Profile  */
+    .profile-page .avatar-box {
+        width: 300px;
+        border-right: 1px solid var(--e6-color);
+    }
+    .profile-page .avatar-box > img {
+        width: 120px;
+        height: 120px;
+    }
+    .profile-page .avatar-box .level {
+        background-color: var(--e6-color);
+        height: 6px;
+        overflow: hidden;
+        margin: auto;
+        width: 70%;
+    }
+    .profile-page .avatar-box .level span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background-color: var(--blue-color);
+        border-radius: 6px;
+    }
+    .profile-page .avatar-box .level {
+
+    }
+    /* End Profile  */

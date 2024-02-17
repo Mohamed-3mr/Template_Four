@@ -727,7 +727,29 @@ background-color: #e9e9e9;
         background-color: var(--blue-color);
         border-radius: 6px;
     }
-    .profile-page .avatar-box .level {
-
+    .profile-page .info-box .box {
+        flex-wrap: wrap;
+        border-bottom: 1px solid #DDD;
+    }
+    .profile-page .info-box .box:hover {
+        background-color: #f9f9f9;
+    }
+    .profile-page .info-box .box > div {
+        min-width: 250px;
+        padding: 10px 0 0;
+    }
+    .profile-page .info-box h4 {
+        font-weight: normal;
+    }
+    .profile-page .info-box .toggle-switch {
+        height: 20px;
+    }
+    .profile-page .info-box .toggle-switch::before {
+        width: 12px;
+        height: 12px;
+        font-size: 8px;
+    }
+    .profile-page .info-box .toggle-checkbox:checked + .toggle-switch::before {
+        left: 62px;
     }
     /* End Profile  */

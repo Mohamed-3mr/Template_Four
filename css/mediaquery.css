@@ -68,12 +68,15 @@
 /* Start Profile Page  */
 @media (min-width: 768px) {
     .profile-page .avatar-box {
-        border-right: 1px solid var(--e6-color);
+        border-right: 1px solid #ddd;
     }
 }
 @media (max-width: 767px) {
     .profile-page .overview {
         flex-direction: column;
+    }
+    .profile-page .info-box .toggle-switch {
+        margin: auto;
     }
 }
 /* End Profile Page  */

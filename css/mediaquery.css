@@ -60,5 +60,8 @@
         margin-right: 10px;
         gap: 10px;
     }
+    .backup-control .servers {
+        flex-wrap: wrap;
+    }
 }
 /* End Settings Page  */

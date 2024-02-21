@@ -78,5 +78,8 @@
     .profile-page .info-box .toggle-switch {
         margin: auto;
     }
+    .profile-page .other-data {
+        flex-direction: column;
+    }
 }
 /* End Profile Page  */
